@@ -1857,9 +1857,8 @@ ul.nav > li > a.active{
     height: 50px;
     line-height: 50px;
     border-radius: 2px;
-    border: 2px solid #eaeaea;
-    border-left: none;
-	width: 120px;
+    border: 2px solid #eaeaea; 
+	width: 100%;
 	padding-left: 25px;
 }
 .search-box .nice-select{
@@ -4180,4 +4179,12 @@ banner
     -ms-transform-origin: top left;
     -webkit-transform-origin: top left;
     transform-origin: top left;
+  }
+
+  .branding21.formFooter{
+    display: none !important;
+  }
+  .form-line{
+    margin: 20px 0 !important;
+    padding: 0 !important;
   }

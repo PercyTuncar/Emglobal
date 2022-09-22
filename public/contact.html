@@ -9,7 +9,7 @@
 		<meta name="description" content="Multipurpose Saas Startup HTML Template">
         <meta name="author" content="DynamicLayers">
        
-        <title>Em Global com</title>
+        <title>Contacto - Em Global com</title>
         
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 		
@@ -136,29 +136,285 @@
 		                </div>
 		            </div>
 		            <div class="col-lg-6 sm-padding">
-		                <div class="contact-form">
-                            <form action="contact.php" method="post" id="ajax_form" class="form-horizontal">
-                                <div class="form-group colum-row row">
-                                    <div class="col-sm-6">
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                                    </div>
+                        <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.35987" type="text/javascript"></script>
+                        <script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.35987" type="text/javascript"></script>
+                        <script src="https://cdn03.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.35987" type="text/javascript"></script>
+                        <script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.35987" type="text/javascript"></script>
+                        <script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.35987" type="text/javascript"></script>
+                        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+                        <script type="text/javascript">	JotForm.newDefaultTheme = true;
+                            JotForm.extendsNewTheme = false;
+                            JotForm.singleProduct = false;
+                            JotForm.newPaymentUIForNewCreatedForms = true;
+                            JotForm.newPaymentUI = true;
+                            JotForm.clearFieldOnHide="disable";
+                            JotForm.submitError="jumpToFirstError";
+                        
+                            JotForm.init(function(){
+                            /*INIT-START*/
+                              JotForm.setPhoneMaskingValidator( 'input_7_full', '(+51) ###-###-###' );
+                        if (window.JotForm && JotForm.accessible) $('input_6').setAttribute('tabindex',0);
+                              JotForm.setCustomHint( 'input_6', 'Type here...' );
+                              JotForm.alterTexts({"ageVerificationError":"Debe ser mayor de {minAge} años para enviar este formulario.","alphabetic":"Este campo solo puede contener letras.","alphanumeric":"Este campo solo puede contener letras y números.","appointmentSelected":"Ha seleccionado {time} del {date}","ccDonationMinLimitError":"La Cantidad Mínima es {minAmount} {currency}","ccInvalidCVC":"El número CVC no es válido.","ccInvalidExpireDate":"La fecha de expiración no es válida","ccInvalidNumber":"El número de su tarjeta de crédito no es válido.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Favor ponga valores númericos en la cantidad a donar.","ccMissingProduct":"Por favor seleccione al menos un producto.","characterLimitError":"Demasiados caracteres. El límite es","characterMinLimitError":"Muy pocos caracteres. El mínimum es","confirmClearForm":"¿Está seguro que desea limpiar el formulario?","confirmEmail":"El correo electrónico no coincide","currency":"Este campo sólo puede contener valores de moneda.","cyrillic":"Este campo solo puede contener caracteres cirílicos.","dateInvalid":"Esta fecha no es valida. El formato de fecha es {format}","dateInvalidSeparate":"Esta fecha no es válida. Ponga una {element} válida","dateLimited":"Esta fecha no está disponible.","disallowDecimals":"Por favor, introduzca un número entero.","dragAndDropFilesHere_infoMessage":"Arrastre y suelte archivos aquí","email":"Introduzca una dirección e-mail válida","fillMask":"El valor de este campo debe llenar la mascara","freeEmailError":"No se permiten cuentas de correo gratuitas","generalError":"Existen errores en el formulario, por favor corríjalos antes de continuar.","generalPageError":"Hay errores en esta página. Por favor, corríjalos antes de continuar.","gradingScoreError":"El puntaje total debería ser sólo &amp;quot;menos que&amp;quot; o &amp;quot;igual que&amp;quot;","incompleteFields":"Existen campos requeridos incompletos. Por favor complételos.","inputCarretErrorA":"La entrada no debe ser inferior al valor mínimo:","inputCarretErrorB":"La entrada debe ser menor al valor:","justSoldOut":"Se acaba de agotar","lessThan":"Su puntuación debería ser menor o igual que","maxDigitsError":"El máximo de dígitos permitido es","maxFileSize_infoMessage":"Tamaño de Archivo Máx.","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"El número mínimo de opciones obligatorias es","multipleFileUploads_emptyError":"El fichero {file} está vacío; por favor, seleccione de nuevo los ficheros sin él.","multipleFileUploads_fileLimitError":"Solo {fileLimit} carga de archivos permitida.","multipleFileUploads_minSizeError":"{file} is demasiado pequeño, el tamaño mínimo de fichero es: {minSizeLimit}.","multipleFileUploads_onLeave":"Se están cargando los ficheros, si cierras ahora, se cancelará dicha carga.","multipleFileUploads_sizeError":"{file} es demasiado grande; el tamaño del archivo no debe superar los {sizeLimit}.","multipleFileUploads_typeError":"El fichero {file} posee una extensión no permitida. Sólo están permitidas las extensiones {extensions}.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","noSlotsAvailable":"No hay cupos disponibles","notEnoughStock":"No hay suficientes existencias para la selección actual","notEnoughStock_remainedItems":"No hay suficientes existencias para la selección actual (quedan {count} artículos)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"Este campo sólo admite valores numéricos.","pastDatesDisallowed":"La fecha debe ser futura","pleaseWait":"Por favor, espere ...","required":"Este campo es obligatorio.","requireEveryCell":"Se requieren todas las celdas.","requireEveryRow":"Todas las filas son obligatorias.","requireOne":"Al menos un campo requerido.","restrictedDomain":"This domain is not allowed","selectionSoldOut":"Selección agotada","slotUnavailable":"{time} del {date} ha sido tomada. Favor seleccionar otro espacio.","soldOut":"Agotado","subProductItemsLeft":"(quedan {count} productos)","uploadExtensions":"Solo puede subir los siguientes archivos:","uploadFilesize":"Tamaño del archivo no puede ser mayor que:","uploadFilesizemin":"Tamañao de archivo no puede ser menos de:","url":"Este campo solo contiene una URL válida.","validateEmail":"Usted necesita validar este e-mail","wordLimitError":"Demasiadas palabras. El límite es","wordMinLimitError":"Muy pocas palabras. El mínimo es"});
+                            /*INIT-END*/
+                            });
+                        
+                           JotForm.prepareCalculationsOnTheFly([null,null,null,{"description":"","name":"nombre","qid":"3","text":"Nombre","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"ejemplo@ejemplo.com","text":"Email","type":"control_email"},null,{"description":"","name":"escribaUna","qid":"6","subLabel":"","text":"Escriba una pregunta","type":"control_textarea"},{"description":"","name":"numeroDe","qid":"7","text":"Numero de telefono","type":"control_phone"},null,null,{"name":"enviar","qid":"10","text":"Enviar","type":"control_button"}]);
+                           setTimeout(function() {
+                        JotForm.paymentExtrasOnTheFly([null,null,null,{"description":"","name":"nombre","qid":"3","text":"Nombre","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"ejemplo@ejemplo.com","text":"Email","type":"control_email"},null,{"description":"","name":"escribaUna","qid":"6","subLabel":"","text":"Escriba una pregunta","type":"control_textarea"},{"description":"","name":"numeroDe","qid":"7","text":"Numero de telefono","type":"control_phone"},null,null,{"name":"enviar","qid":"10","text":"Enviar","type":"control_button"}]);}, 20); 
+                        </script>
+                        <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+                        <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=6310a6ad592c72439615db25"/>
+                        <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.35987" />
+                        <link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.35987" />
+                        <style type="text/css" id="form-designer-style">
+                            /* Injected CSS Code */
+                        /*PREFERENCES STYLE*/
+                            .form-all {
+                              font-family: Inter, sans-serif;
+                            }
+                            .form-all .qq-upload-button,
+                            .form-all .form-submit-button,
+                            .form-all .form-submit-reset,
+                            .form-all .form-submit-print {
+                              font-family: Inter, sans-serif;
+                            }
+                            .form-all .form-pagebreak-back-container,
+                            .form-all .form-pagebreak-next-container {
+                              font-family: Inter, sans-serif;
+                            }
+                            .form-header-group {
+                              font-family: Inter, sans-serif;
+                            }
+                            .form-label {
+                              font-family: Inter, sans-serif;
+                            }
+                          
+                            .form-label.form-label-auto {
+                              
+                            display: block;
+                            float: none;
+                            text-align: left;
+                            width: 100%;
+                          
+                            }
+                          
+                            .form-line {
+                              margin-top: 12px;
+                              margin-bottom: 12px;
+                            }
+                          
+                            .form-all {
+                              max-width: 752px;
+                              width: 100%;
+                            }
+                          
+                            .form-label.form-label-left,
+                            .form-label.form-label-right,
+                            .form-label.form-label-left.form-label-auto,
+                            .form-label.form-label-right.form-label-auto {
+                              width: 230px;
+                            }
+                          
+                            .form-all {
+                              font-size: 16px
+                            }
+                            .form-all .qq-upload-button,
+                            .form-all .qq-upload-button,
+                            .form-all .form-submit-button,
+                            .form-all .form-submit-reset,
+                            .form-all .form-submit-print {
+                              font-size: 16px
+                            }
+                            .form-all .form-pagebreak-back-container,
+                            .form-all .form-pagebreak-next-container {
+                              font-size: 16px
+                            }
+                          
+                            .supernova .form-all, .form-all {
+                              background-color: #fff;
+                            }
+                          
+                            .form-all {
+                              color: #2C3345;
+                            }
+                            .form-header-group .form-header {
+                              color: #2C3345;
+                            }
+                            .form-header-group .form-subHeader {
+                              color: #2C3345;
+                            }
+                            .form-label-top,
+                            .form-label-left,
+                            .form-label-right,
+                            .form-html,
+                            .form-checkbox-item label,
+                            .form-radio-item label,
+                            span.FITB .qb-checkbox-label,
+                            span.FITB .qb-radiobox-label,
+                            span.FITB .form-radio label,
+                            span.FITB .form-checkbox label,
+                            [data-blotid][data-type=checkbox] [data-labelid],
+                            [data-blotid][data-type=radiobox] [data-labelid],
+                            span.FITB-inptCont[data-type=checkbox] label,
+                            span.FITB-inptCont[data-type=radiobox] label {
+                              color: #2C3345;
+                            }
+                            .form-sub-label {
+                              color: #464d5f;
+                            }
+                          
+                            .supernova {
+                              background-color: #ecedf3;
+                            }
+                            .supernova body {
+                              background: transparent;
+                            }
+                          
+                            .form-textbox,
+                            .form-textarea,
+                            .form-dropdown,
+                            .form-radio-other-input,
+                            .form-checkbox-other-input,
+                            .form-captcha input,
+                            .form-spinner input {
+                              background-color: #fff;
+                            }
+                          
+                            .supernova {
+                              background-image: none;
+                            }
+                            #stage {
+                              background-image: none;
+                            }
+                          
+                            .form-all {
+                              background-image: none;
+                            }
+                          
+                          .ie-8 .form-all:before { display: none; }
+                          .ie-8 {
+                            margin-top: auto;
+                            margin-top: initial;
+                          }
+                          
+                          /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+                            /* Injected CSS Code */
+                        </style>
+                        
+                        <form class="jotform-form" action="https://submit.jotform.com/submit/222646205544049/" method="post" name="form_222646205544049" id="222646205544049" accept-charset="utf-8" autocomplete="on">
+                          <input type="hidden" name="formID" value="222646205544049" />
+                          <input type="hidden" id="JWTContainer" value="" />
+                          <input type="hidden" id="cardinalOrderNumber" value="" />
+                          <div role="main" class="form-all">
+                            <style>
+                              .form-all:before { background: none;}
+                            </style>
+                            <ul class="form-section page-section">
+                              <li class="form-line jf-required" data-type="control_fullname" id="id_3">
+                                <label class="form-label form-label-top form-label-auto" id="label_3" for="first_3">
+                                  Nombre
+                                  <span class="form-required">
+                                    *
+                                  </span>
+                                </label>
+                                <div id="cid_3" class="form-input-wide jf-required" data-layout="full">
+                                  <div data-wrapper-react="true">
+                                    <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                                      <input type="text" id="first_3" name="q3_nombre[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_3 given-name" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" required="" />
+                                      <label class="form-sub-label" for="first_3" id="sublabel_3_first" style="min-height:13px" aria-hidden="false"> Nombre </label>
+                                    </span>
+                                    <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                                      <input type="text" id="last_3" name="q3_nombre[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_3 family-name" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" required="" />
+                                      <label class="form-sub-label" for="last_3" id="sublabel_3_last" style="min-height:13px" aria-hidden="false"> Apellido </label>
+                                    </span>
+                                  </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <textarea id="message" name="message" cols="30" rows="5" class="form-control message" placeholder="Message" required></textarea>
-                                    </div>
+                              </li>
+                              <li class="form-line jf-required" data-type="control_phone" id="id_7">
+                                <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7_full">
+                                  Número de teléfono
+                                  <span class="form-required">
+                                    *
+                                  </span>
+                                </label>
+                                <div id="cid_7" class="form-input-wide jf-required" data-layout="half">
+                                  <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="tel" id="input_7_full" name="q7_numeroDe[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_7 tel-local" style="width:310px" data-masked="true" value="" placeholder="(+51) 000-000-000" data-component="phone" aria-labelledby="label_7 sublabel_7_masked" required="" />
+                                    <label class="form-sub-label" for="input_7_full" id="sublabel_7_masked" style="min-height:13px" aria-hidden="false"> Favor ingrese un número de teléfono válido. </label>
+                                  </span>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <button id="submit" class="default-btn btn-blue" type="submit">Send Message</button>
-                                    </div>
+                              </li>
+                              <li class="form-line jf-required" data-type="control_email" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4">
+                                  Email
+                                  <span class="form-required">
+                                    *
+                                  </span>
+                                </label>
+                                <div id="cid_4" class="form-input-wide jf-required" data-layout="half">
+                                  <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="email" id="input_4" name="q4_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="email" aria-labelledby="label_4 sublabel_input_4" required="" />
+                                    <label class="form-sub-label" for="input_4" id="sublabel_input_4" style="min-height:13px" aria-hidden="false"> ejemplo@ejemplo.com </label>
+                                  </span>
                                 </div>
-                                <div id="form-messages" class="alert" role="alert"></div>
-                            </form>
-                        </div>
+                              </li>
+                              <li class="form-line jf-required" data-type="control_textarea" id="id_6">
+                                <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6">
+                                  Escriba una pregunta
+                                  <span class="form-required">
+                                    *
+                                  </span>
+                                </label>
+                                <div id="cid_6" class="form-input-wide jf-required" data-layout="full">
+                                  <textarea id="input_6" class="form-textarea validate[required]" name="q6_escribaUna" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_6"></textarea>
+                                </div>
+                              </li>
+                              <li class="form-line" data-type="control_button" id="id_10">
+                                <div id="cid_10" class="form-input-wide" data-layout="full">
+                                  <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+                                    <button id="input_10" type="submit" class="form-submit-button form-submit-button-simple_blue submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+                                      Enviar
+                                    </button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li style="display:none">
+                                Should be Empty:
+                                <input type="text" name="website" value="" />
+                              </li>
+                            </ul>
+                          </div>
+                          <script>
+                          JotForm.showJotFormPowered = "new_footer";
+                          </script>
+                          <script>
+                          JotForm.poweredByText = "Desarrollado por Jotform";
+                          </script>
+                          <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="222646205544049" />
+                          <script type="text/javascript">
+                          var all_spc = document.querySelectorAll("form[id='222646205544049'] .si" + "mple" + "_spc");
+                        for (var i = 0; i < all_spc.length; i++)
+                        {
+                          all_spc[i].value = "222646205544049-222646205544049";
+                        }
+                          </script>
+                          <div class="formFooter-heightMask">
+                          </div>
+                          <div class="formFooter f6 branding21">
+                            <div class="formFooter-wrapper formFooter-leftSide">
+                              <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=222646205544049&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo2021/jotform-logo-white.svg" alt="Jotform Logo" style="height: 44px;"></a>
+                            </div>
+                            <div class="formFooter-wrapper formFooter-rightSide">
+                              <span class="formFooter-text">
+                                Now create your own Jotform - It's free!
+                              </span>
+                              <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=222646205544049&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank">Create your own Jotform</a>
+                            </div>
+                          </div>
+                        </form>
+                        <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.35987"></script>
+                        <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.35987"></script>
 		            </div>
 		        </div>
 		    </div>
